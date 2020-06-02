@@ -61,12 +61,11 @@ export default class HelloWorld {
                 grabbable: true,
                 attachment: {
                     userId: user.id,
-                    attachPoint: 'left-hand'
+                    attachPoint: 'hips'
                 },
 				transform: {local: {
-					position: { x: 0, y: 0, z: -0.03 },
+					position: { x: 0, y: -0.3, z: 1 },
                     scale: { x: 0.2, y: 0.2, z: 0.2},
-                    rotation: { x: 0, y: 0, z: 0.90},
 				}}
 			}
 		});
