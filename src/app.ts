@@ -57,6 +57,7 @@ export default class HelloWorld {
             resourceId: "artifact: 1460421793033487217",
 			actor: {
                 name: 'Mirror',
+                exclusiveToUser: user.id,
                 grabbable: true,
                 attachment: {
                     userId: user.id,
@@ -64,7 +65,8 @@ export default class HelloWorld {
                 },
 				transform: {local: {
 					position: { x: 0, y: 0, z: -0.03 },
-					scale: { x: 0.2, y: 0.2, z: 0.2}
+                    scale: { x: 0.2, y: 0.2, z: 0.2},
+                    rotation: { x: 0, y: 0, z: 0.90},
 				}}
 			}
 		});
@@ -84,7 +86,6 @@ export default class HelloWorld {
                     transform: {local: {
                         position: { x: 0.0003, y: -1.6835 , z: -0.047365 },
                         scale: { x: 1.0083, y: 1.0083, z: 1.0083},
-                       
                     }}
                 }
             });
