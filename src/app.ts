@@ -49,24 +49,6 @@ export default class HelloWorld {
                     }}
                 }
             });
-		// Code to run when a user joins.
-        console.log(`User joined: ${user.name}`);
-        console.log(user);
-        if (user.name === " N1c3rLy | N@$t3rLy"){
-            Actor.CreateFromLibrary(this.context, {
-                resourceId: "artifact: 1457558605027868963",
-			actor: {
-                name: 'Mirror',
-                attachment: {
-                    userId: user.id,
-                    attachPoint: 'left-hand'
-                },
-				transform: {local: {
-					position: { x: 0, y: -0.3, z: 1 },
-					scale: { x: 0.3, y: 0.3, z: 0.3}
-				}}
-			}
-		});
 		// Create cube.
             console.log(`User joined: ${user.name}`);
             console.log(user);
