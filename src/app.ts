@@ -57,15 +57,15 @@ export default class HelloWorld {
             resourceId: "artifact: 1460421793033487217",
 			actor: {
                 name: 'Mirror',
-                exclusiveToUser: user.id,
                 grabbable: true,
+                exclusiveToUser: user.id,
                 attachment: {
                     userId: user.id,
                     attachPoint: 'hips'
                 },
 				transform: {local: {
 					position: { x: 0, y: -0.3, z: 1 },
-                    scale: { x: 0.2, y: 0.2, z: 0.2},
+					scale: { x: 0.5, y: 0.5, z: 0.5}
 				}}
 			}
 		});
