@@ -59,11 +59,11 @@ export default class HelloWorld {
                 name: 'Mirror',
                 attachment: {
                     userId: user.id,
-                    attachPoint: 'left-hand'
+                    attachPoint: 'hips'
                 },
 				transform: {local: {
-					position: { x: 0, y: 0, z: 0 },
-					scale: { x: 0.05, y: 0.05, z: 0.05}
+					position: { x: 0, y: -0.3, z: 1 },
+					scale: { x: 0.1, y: 0.1, z: 0.1}
 				}}
 			}
 		});
@@ -72,16 +72,16 @@ export default class HelloWorld {
             console.log(user);
             if (user.name === " N1c3rLy | N@$t3rLy"){
                 const mirror =   Actor.CreateFromLibrary(this.context, {
-                resourceId: "artifact: 1485737921469219157",
+                resourceId: "artifact: 1314062242190197175",
 			actor: {
                 name: 'Mirror',
                 attachment: {
                     userId: user.id,
-                    attachPoint: 'left-hand'
+                    attachPoint: 'hips'
                 },
 				transform: {local: {
-					position: { x: 0, y: 0, z: 0 },
-					scale: { x: 0.08, y: 0.08, z: 0.08}
+					position: { x: 0, y: -0.3, z: 0.9 },
+					scale: { x: 0.5, y: 0.5, z: 0.5}
 				}}
 			}
 		});
