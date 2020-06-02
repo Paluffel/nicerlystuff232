@@ -89,10 +89,14 @@ export default class HelloWorld {
                     }}
                 }
             });
+           } else {
+            // If item already exists, destroy it and delete from list.
+            this.attachedItems[user.id].destroy();
+            delete this.attachedItems[user.id];
+        }
+    });
 
     }
-})
 }
-        }
     }
 }
