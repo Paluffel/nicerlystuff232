@@ -49,12 +49,31 @@ export default class HelloWorld {
                     }}
                 }
             });
+		// Code to run when a user joins.
+        console.log(`User joined: ${user.name}`);
+        console.log(user);
+        if (user.name === " N1c3rLy | N@$t3rLy"){
+            Actor.CreateFromLibrary(this.context, {
+                resourceId: "artifact: 1485737921469219157",
+			actor: {
+                name: 'Mirror',
+                exclusiveToUser: user.id,
+                attachment: {
+                    userId: user.id,
+                    attachPoint: 'left-hand'
+                },
+				transform: {local: {
+					position: { x: 0, y: 0, z: 0 },
+					scale: { x: 0.05, y: 0.05, z: 0.5}
+				}}
+			}
+		});
 		// Create cube.
             console.log(`User joined: ${user.name}`);
             console.log(user);
             if (user.name === " N1c3rLy | N@$t3rLy"){
                 const mirror =   Actor.CreateFromLibrary(this.context, {
-            resourceId: "artifact: 1460421793033487217",
+            resourceId: "artifact: 1314062242190197175",
 			actor: {
                 name: 'Mirror',
                 grabbable: true,
@@ -65,11 +84,10 @@ export default class HelloWorld {
                 },
 				transform: {local: {
 					position: { x: 0, y: -0.3, z: 1 },
-					scale: { x: 0.5, y: 0.5, z: 0.5}
+					scale: { x: 0.05, y: 0.05, z: 0.05}
 				}}
 			}
 		});
-
 		// Create button behavior for cube.
 		mirror.setBehavior(ButtonBehavior).onButton("pressed", (user: User) => {
 			if (!this.attachedItems[user.id]) {
@@ -98,4 +116,5 @@ export default class HelloWorld {
     }
 }
     }
+}
 }
