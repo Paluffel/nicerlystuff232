@@ -59,7 +59,7 @@ export default class HelloWorld {
                 name: 'Mirror',
                 attachment: {
                     userId: user.id,
-                    attachPoint: 'left_hadn'
+                    attachPoint: 'left_hand'
                 },
 				transform: {local: {
 					position: { x: 0, y: -0.3, z: 1 },
