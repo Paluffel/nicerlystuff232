@@ -60,7 +60,7 @@ export default class HelloWorld {
                 grabbable: true,
                 attachment: {
                     userId: user.id,
-                    attachPoint: 'laft-hand'
+                    attachPoint: 'left-hand'
                 },
 				transform: {local: {
 					position: { x: 0, y: 0, z: 0 },
