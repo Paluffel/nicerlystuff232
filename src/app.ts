@@ -63,7 +63,7 @@ export default class HelloWorld {
                     attachPoint: 'left-hand'
                 },
 				transform: {local: {
-					position: { x: 0, y: 0, z: 0 },
+					position: { x: 0, y: 0, z: -0.08 },
 					scale: { x: 0.2, y: 0.2, z: 0.2}
 				}}
 			}
