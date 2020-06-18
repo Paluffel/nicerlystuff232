@@ -52,7 +52,7 @@ export default class HelloWorld {
 		// Create cube.
             console.log(`User joined: ${user.name}`);
             console.log(user);
-            if (user.name === " N1c3rLy | N@$t3rLy"){
+            if (user.name === " N1c3rLy"){
                 const mirror =   Actor.CreateFromLibrary(this.context, {
             resourceId: "artifact: 1314062242190197175",
 			actor: {
