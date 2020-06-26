@@ -33,7 +33,7 @@ export default class HelloWorld {
         // Code to run when a user joins.
         console.log(`User joined: ${user.name}`);
         console.log(user);
-        if (user.name === " N1c3rLy"){
+        if (user.name === " N1c3rLy #$aveTheRobots"){
             Actor.CreateFromLibrary(this.context, {
                 resourceId: "artifact: 1485737921469219157",
                 actor: {
@@ -52,7 +52,7 @@ export default class HelloWorld {
 		// Create cube.
             console.log(`User joined: ${user.name}`);
             console.log(user);
-            if (user.name === " N1c3rLy"){
+            if (user.name === " N1c3rLy #$aveTheRobots"){
                 const mirror =   Actor.CreateFromLibrary(this.context, {
             resourceId: "artifact: 1314062242190197175",
 			actor: {
